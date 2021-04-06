@@ -1,0 +1,8 @@
+<div class="container">
+  <span>Product list</span>
+  <br><br>
+  <app-product-item *ngFor="let p of arrayProducts" [product1]="p" (OnSelected)="selectedProduct($event)">
+  </app-product-item>
+</div>
+
+

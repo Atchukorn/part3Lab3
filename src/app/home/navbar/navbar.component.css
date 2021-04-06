@@ -1,0 +1,24 @@
+.container{
+  padding : 5px, 5vw;
+}
+
+.search {
+ border: 1px solid lightgrey;
+ padding: 5px 5px;
+ margin-bottom: 10px;
+}
+.search > input {
+  /* .search { */
+  width: 80%;
+  border:none;
+}
+.search > div {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin-left: 5px;
+  padding: 0px 5px;
+  width:18%;
+  text-align: center;
+}
